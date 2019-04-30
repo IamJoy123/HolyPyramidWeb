@@ -1,0 +1,27 @@
+@font-face{
+
+	font-family: FjallaOne-Regular;
+	src: url(fuentes/Fjalla_One/FjallaOne-Regular.ttf); 
+
+}
+
+@font-face{
+
+	font-family: monospace;
+	src: url(fuentes/Inconsolata-Regular.ttf); 
+
+}
+
+@font-face{
+
+	font-family: sans-serif;
+	src: url(fuentes/Nunito-Regular.ttf); 
+
+}
+
+@font-face{
+
+	font-family: QuattrocentoSans-Regular;
+	src: url(fuentes/Quattrocento_Sans/QuattrocentoSans-Regular.ttf); 
+
+}

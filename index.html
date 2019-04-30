@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<link rel="stylesheet" type="text/css" href="fuentes.css">
+	<script type="text/javascript" src="desplegar.js"></script>
+</head>
+<body>
+
+	<section id="login">
+
+		<div id="imagen_login">
+
+			<div class="capa-uno">
+
+				<h1>Holopiramid</h1>
+
+			</div>
+
+		</div>
+
+		<div id="formulario">
+
+			<nav>
+
+				<ul>
+
+					<li id="regBtn" onclick="desplegar(event, this, 'regBtn', 'registro')">
+						Registrarse
+					</li>
+
+				</ul>
+
+			</nav>
+
+			<div>
+				<h1 id="inicio-titulo">
+					Inicio de cesi&oacute;n
+				</h1>
+
+				<p>
+					¡Bienvenido de nuevo! Ingresa para poder administrar tu hogar.
+				</p>
+
+				<ul>
+					<li>
+						<input type="text" name="" placeholder="Usuario" autofocus="true">
+						<img src="iconos/usuario.png">
+					</li>
+					<li>
+						<input type="password" name="" placeholder="Contrase&ntilde;a">
+						<img src="iconos/clave.png">
+					</li>
+					<li onclick="desplegar(event, this, 'regCot', 'modal')" id="regCot">
+						¿Olvidaste tu contraseña?
+					</li>
+				</ul>
+				<input type="button" name="entrar" value="Entrar">
+			</div>
+
+		</div>
+
+	</section>
+
+	<section id="modal">
+
+		<div id="modal-img">
+				<img id="cerrar-modal" src="iconos/cerrar-blanco.svg" onclick="ocultar(event, this, 'cerrar-modal', 'modal');">
+		</div>
+
+		<div id="modal-contenido">
+
+			<h2>
+				Enviar contrase&ntilde;a
+			</h2>
+
+			<p>Intruduce tu correo para enviar tu contrase&ntilde;a de nuevo</p>
+
+			<ul>
+				<li>
+					<input type="text" placeholder="Correo">
+					<img src="iconos/arroba.svg">
+				</li>
+			</ul>
+
+			<input type="submit" name="enviar">
+
+	</section>
+
+	<section id="registro">
+
+		<div id="cont-reg">
+
+			<div id="img-registro">
+				<img src="iconos/cerrar-blanco.svg" id="ocultarReg" onclick="ocultar(event, this, 'ocultarReg', 'registro');">
+			</div>
+
+			<div id="campos-registro">
+
+				<ul>
+					<li id="labUno">Datos personales</li>
+					<li id="labDos">Datos de la cuenta</li>
+				</ul>
+
+				<div id="dat-per">
+					<h2>Introduce los datos que se te piden</h2>
+
+					<span>
+						<input type="text" placeholder="Nombre">
+						<img src="iconos/Usuario.png" alt="">
+					</span>
+
+					<span>
+						<input type="text" placeholder="Apellido paterno">
+						<img src="iconos/Usuario.png" alt="">
+					</span>
+
+					<span>
+						<input type="text" placeholder="Apellido Materno">
+						<img src="iconos/Usuario.png" alt="">
+					</span>
+
+					<span>
+						<input type="number" min="0" max="100" placeholder="Edad">
+						<img src="iconos/Usuario.png" alt="">
+					</span>
+
+					<input type="button" value="Siguiente">
+
+				</div>
+
+				<div id="dat-cue" onclick="registro(this)">
+						<h2>Ya casi terminamos</h2>
+
+						<input type="email" placeholder="email">
+						<input type="text" placeholder="Nombre de la cuenta">
+						<input type="password" placeholder="Contrase&ntilde;a">
+						<input type="password" placeholder="Canfirmar contrase&ntilde;a">
+						<input type="button" value="Terminar">
+				</div>
+
+		</div>
+
+		</div>
+
+	</section>
+
+	<section id="informacion">
+
+		<div></div>
+		<div></div>
+		<div></div>
+
+	</section>
+
+	<footer>
+
+		<h2>
+			Tu opinion nos importa enviansla en el siguiente en lace
+		</h2>
+
+		<ul>
+			<li>
+				<input type="text" name="">
+			</li>
+			<li>
+				<input type="text" name="">
+			</li>
+		</ul>
+
+		<textarea></textarea>
+
+		<input type="submit" name="">
+
+		<div id="copyright">
+
+			COMPYRIGHT 2019
+
+		</div>
+
+	</footer>
+
+</body>
+</html>

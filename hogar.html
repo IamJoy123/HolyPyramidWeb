@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="hogar.css">
+    <link rel="stylesheet" href="fuentes.css">
+    <script src="hogar.js" charset="utf-8"></script>
+  </head>
+  <body>
+
+    <nav>
+
+      <div id="menu" onclick="mostrarMenu(event, this)">
+        <img src="iconos/menu.svg" alt="">
+      </div>
+
+      <h1 id="logo">
+        Holopiramid
+      </h1>
+
+    </nav>
+
+    <section id="navegacion">
+
+      <ul>
+        <li>
+          <a href="#">
+            Rutinas
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Hogar
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Usuario
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            Asistencia
+          </a>
+        </li>
+      </ul>
+
+    </section>
+
+    <section id="contenido">
+
+      <div id="pestanias">
+        <ul>
+          <li onclick="mostrarVentana(event, this)">
+            Puertas
+          </li>
+          <li>
+            Ventanas
+          </li>
+          <li>
+            Persianas
+          </li>
+          <li>
+            Dispositivos
+          </li>
+          <li>
+            Agregar
+          </li>
+        </ul>
+      </div>
+
+      <div id="Puertas" class="ventana">
+        <h1 class="titulo">
+          Puertas
+        </h1>
+      </div>
+
+      <div id="Ventanas" class="ventana">
+        <h1 class="titulo">
+          Ventana
+        </h1>
+      </div>
+
+      <div id="Persianas" class="ventana">
+        <h1 class="titulo">
+          Persianas
+        </h1>
+      </div>
+
+      <div id="Dispositivos" class="ventana">
+        <h1 class="titulo">
+          Dispositivos
+        </h1>
+      </div>
+
+      <div id="Agregar" class="ventana">
+        <h1 class="titulo">
+          Agregar
+        </h1>
+
+        <div id="items">
+          <label>
+            <input type="radio" name="item" value="Puerta">
+            Puertas
+          </label>
+          <label>
+            <input type="radio" name="item" value="Ventanas">
+            Ventanas
+          </label>
+          <label>
+            <input type="radio" name="item" value="Persianas">
+            Persianas
+          </label>
+          <label>
+            <input type="radio" name="item" value="Dispositivos">
+            Dispositivos
+          </label>
+        </div>
+
+        <div id="nombre">
+          <input type="text" name="" value="" placeholder="Nombre">
+          <input type="button" name="" value="Agregar">
+        </div>
+
+      </div>
+
+    </section>
+
+    <section id="dispAgre">
+
+      <div class="dispAgreImg">
+        <img src="" alt="">
+      </div>
+
+      <div id="dispAgreImg">
+        <input type="button" value="Aceptar">
+      </div>
+
+    </section>
+
+    <section id="modal">
+
+      <div id="detalles">
+
+      </div>
+
+    </section>
+
+  </body>
+</html>
